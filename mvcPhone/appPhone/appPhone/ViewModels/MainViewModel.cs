@@ -24,7 +24,7 @@ namespace appPhone.ViewModels
         #region singleton
         private static MainViewModel instance;
 
-        private static MainViewModel GetInstance()
+        public static MainViewModel GetInstance()
         {
             if (instance == null)
             {
